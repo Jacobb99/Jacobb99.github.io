@@ -9,6 +9,7 @@ td
    table
    {
     border-collapse: collapse;
+      color: blue;
    }
    td, th
    {

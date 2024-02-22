@@ -4,32 +4,34 @@
     <title>Superheroes</title>
 
     <style>
-       .heropic
-            {
-                height: 100px;
-            }
-            td, th
-            {
-                border: 2px solid black;
-                padding: 15px;
-                
-            }
-            table
-            {
-                border-collapse: collapse;
-            }
-            th
-            {
-                background-color: gray;
-                font-size: 18px;
-            }
+       img
+        {
+            height: 100px;
+        }
+        table, th
+        {
+            border: 3px solid black;
+            border-collapse: collapse; 
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center; 
+        }
+        td
+        {
+            border: 1px dotted black;
+        }
+        #headerrow
+        {
+            background-color: goldenrod; 
+        }
+        
     </style>
     </head>
     <body>
         <h1>Favorite Superheroes</h1>
         <table>
             <thead>
-                <tr>
+                <tr id="headerrow">
                     <th>Name</th>
                     <th>Alias</th>
                     <th>Image</th>
@@ -41,5 +43,25 @@
               <tr>
                 <th>Iron Man</th>
                 <td>Robert&nbsp;Downey Jr</td>
-                <td<a href="https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1685379315735.jpg-org"><img class="heropic" src="https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1685379315735.jpg-org" alt="Iron Man Pic"></td>a></td>
-              </tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE7YQAOZ_x2GBR4bZYhgkevfRzm5wCxaz7dg&usqp=CAU" alt="pic of Robert Downey"></td>
+                <td>Super-human healing and response time</td>
+                <td>Physical combat skills even without his suit</td>
+                <td>Flight</td>
+               <td>Hologram Projections</td>
+                   <ul>
+                    <li>self-hatred</li>
+        </ul>
+        </tr>
+
+         <th>Hulk</th>
+                <td>Bruce&nbsp;Banner Jr</td>
+                <td><img src="https://th.bing.com/th?id=OIP.XjDbBRPsqLxcKgOmgDUNKQHaJh&w=220&h=283&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="pic of the Hulk"></td>
+                <td>strength</td>
+                <td>
+                <ul>
+                    <li>anger issues</li>
+                    <li>uncontrolable morphing</li>
+        </ul>
+                </td>
+            </tr>
+        </table>

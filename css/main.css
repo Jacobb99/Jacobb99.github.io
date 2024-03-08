@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>My Homepage for my GitHub website!</h1>
+    <img src="images/UNCOLogo.png" alt="UNCO Logo" width="220">
+    <ul>
+      <li>
+        <a href="amuse.html">My Amusement Page</a>
+      </li>
+      <li>
+        <a href="inspire.html">My Inspire Page</a>
+      </li>
+      <li>
+        <a href="profile.html">My Profile Page</a>
+      </li>
+    </ul>
+  </body>
+</html>

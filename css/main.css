@@ -1,32 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Homepage</title>
-    <link href="css/main.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>My Homepage for my GitHub website!</h1>
-    <img src="images/UNCOLogo.png" alt="UNCO Logo" width="220">
-    <ul>
-      <li>
-        <a href="amuse.html">My Amusement Page</a>
-      </li>
-      <li>
-        <a href="inspire.html">My Inspire Page</a>
-      </li>
-      <li>
-        <a href="profile.html">My Profile Page</a>
-      </li>
-      <li>
-        <a href="index.html">My Index Page</a>
-      </li>
-     <li>
-        <a href="template.html">My Template Page</a>
-      </li>
-      <li>
-        <a href="superhero.html">My Superhero Page</a>
-      </li>
-    </ul>
-  </body>
-</html>
+body {
+    background-color: rgb(200, 240, 150);
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(5, 15, 30);
+}
+
+img {
+    width: 100px;
+    border-radius: 5px;
+    opacity: 0.8;
+    filter: sepia(30%);
+}
+
+h1, h2, h3 {
+    color: 334499; 
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+index {
+    width: 220px;
+}
+
+a {
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+nav a {
+    background-color: lightblue;
+    padding: 18px;
+}
+
+nav#navhome {
+    text-align: right;
+    margin-top: auto;
+}
+
+
